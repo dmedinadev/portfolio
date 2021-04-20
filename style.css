@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+	background-color: #003049;
+	font-family: sans-serif, helvetica;
+}
+
+h1 {
+	color: #FDF0D5;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+p {
+	color: #FDF0D5;
+	font-size: 18px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.imgfoto {
+	display: block;
+	border-radius: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 7px solid #669BBC;
+	transform: translateY(-50%);
+}
+
+.midias {
+	padding-top: 25px;
+}
+
+a.linkum:link {
+	border: none;
+	text-decoration: none;
+	color: #FDF0D5;
+}
+
+a.linkum:visited {
+	border: none;
+	text-decoration: none;
+	color: #FDF0D5;
+}
+
+a.linkum:hover {
+	border: none;
+	text-decoration: underline;
+	color: #FDF0D5;
+}
+
+a.linkum:active {
+	outline: none;
+	text-decoration: none;
+	color: #FDF0D5;
+}
+
+header {
+	background-size: cover;
+	background-image: url('https://i.blogs.es/cb463a/teclado-mecanico/1366_2000.jpg');
+	height: 110px;
+	border-radius: 10px;
+}
+
+section {
+	box-shadow: 7px 7px 2px -2px rgba(158,14,14,0.42);
+	-webkit-box-shadow: 7px 7px 2px -2px rgba(158,14,14,0.42);
+	-moz-box-shadow: 7px 7px 2px -2px rgba(158,14,14,0.42);
+	background-color: #669BBC;
+	max-width: 800px;
+	margin-top: 150px;
+	border-radius: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 15px;
+}
+
+iframe{
+	box-shadow: 5px 5px 2px -2px rgba(158,14,14,0.42);
+	-webkit-box-shadow: 5px 5px 2px -2px rgba(158,14,14,0.42);
+	-moz-box-shadow: 5px 5px 2px -2px rgba(158,14,14,0.42);
+	border-radius: 10px;
+}
+
+div {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	margin-right: auto;
+	margin-left: auto;
+}
